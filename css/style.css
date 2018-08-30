@@ -13,31 +13,69 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 3px;
+  padding: 8px;
+  height: 80px;
   position: fixed;
   opacity: .89;
   width: 100%;
   background-color: white;
 }
 
-span {
+.fa-chevron-left {
+  font-size: 20px;
+  float: left;
+}
+
+.back {
+  font-size: 17px;
+  float: left;
+  padding-left: 10px;
+}
+
+.fa-battery-full {
   float: right;
-  width: 65%;
+  width: 20%;
+  text-align: right;
+}
+
+.fa-signal {
+  float: left;
+  width: 5%;
+}
+
+.fa-wifi {
+  float: left;
+  width: 40%;
+}
+
+.time {
+  float: left;
+  text-align: center;
+  width: 10%;
 }
 
 h1 {
   font-size: 18px;
-  text-align: left;
+  padding-top: 3px;
+  padding-bottom: 10px;
 }
 
 h2, h3 {
   text-align: left;
+  padding-top: 5px;
   font-size: 14px;
 }
 
 h4 {
+  padding-top: 5px;
   text-align: right;
   font-size: 14px;
+}
+
+h5 {
+  float: left;
+  font-size: 20px;
+  padding-left: 50px;
 }
 
 .bus-icon {
@@ -62,15 +100,15 @@ h4 {
 }
 
 .arrow-left {
-  font-style: oblique;
+  padding-top: 30px;
+  height: 60px;
   font-size: 16px;
   font-family: sans-serif;
   color: #007AFF;
-  float: left;
 }
 
 .location {
-  padding: 2px;
+  padding: 16px;
   border-bottom:  0.7px solid #CDCED2;
   width: 100%;
   float: left;
