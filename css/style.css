@@ -54,6 +54,12 @@ nav {
   width: 10%;
 }
 
+.fa-times-circle-o {
+  float: right;
+  padding-right: 10px;
+
+}
+
 h1 {
   font-size: 18px;
   padding-top: 3px;
@@ -83,6 +89,7 @@ h5 {
   border-bottom:  0.5px solid #CDCED2;
   padding-top: 15px;
   padding-bottom: 5px;
+  padding-left: 1.5%;
 }
 
 .grid {
