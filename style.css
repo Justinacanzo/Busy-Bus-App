@@ -1,0 +1,134 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: sans-serif; Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 16px;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 8px;
+  height: 80px;
+  position: fixed;
+  opacity: .89;
+  width: 100%;
+  background-color: white;
+}
+
+.fa-chevron-left {
+  font-size: 20px;
+  float: left;
+}
+
+.back {
+  font-size: 17px;
+  float: left;
+  padding-left: 10px;
+}
+
+.fa-battery-full {
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+
+.fa-signal {
+  float: left;
+  width: 5%;
+}
+
+.fa-wifi {
+  float: left;
+  width: 40%;
+}
+
+.time {
+  float: left;
+  text-align: center;
+  width: 10%;
+}
+
+h1 {
+  font-size: 18px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+
+h2, h3 {
+  text-align: left;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+h4 {
+  padding-top: 5px;
+  text-align: right;
+  font-size: 14px;
+}
+
+h5 {
+  float: left;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.bus-icon {
+  font-size: 25px;
+  border-bottom:  0.5px solid #CDCED2;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.status {
+  text-align: left;
+  font-size: 12px;
+}
+
+.map {
+  width: 100%;
+}
+
+.arrow-left {
+  padding-top: 30px;
+  height: 60px;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #007AFF;
+}
+
+.location {
+  padding: 16px;
+  border-bottom:  0.7px solid #CDCED2;
+  width: 100%;
+  float: left;
+  background-color: #F2F2F2;
+}
+
+.location:hover {
+  transition: color 0s ease-in 0s;
+  background-color: #92D1DE;
+}
+
+.content {
+  width: 95%;
+}
+
+@media screen and (min-width: 736px)
+{
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+  }
+}
