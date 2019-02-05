@@ -15,7 +15,7 @@ nav {
   margin: 0 auto;
   padding: 8px;
   height: 80px;
-  position: fixed;
+  position: justified;
   opacity: .89;
   width: 100%;
   background-color: white;
@@ -61,7 +61,7 @@ nav {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 14px;
   padding-top: 3px;
   padding-bottom: 10px;
 }
@@ -69,13 +69,13 @@ h1 {
 h2, h3 {
   text-align: left;
   padding-top: 5px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 h4 {
   padding-top: 5px;
   text-align: right;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 h5 {
@@ -127,8 +127,28 @@ h5 {
   background-color: #92D1DE;
 }
 
+.reroute:hover {
+  transition: color 0s ease-in 0s;
+  background-color: #92D1DE;
+}
+
+.out-of-service:hover {
+  transition: color 0s ease-in 0s;
+  background-color: #92D1DE;
+}
+
+.location1 {
+  background-color: dark gray;
+}
 .content {
   width: 95%;
+}
+.reroute {
+  background-color: gray;
+}
+
+.out-of-service {
+  background-color: #D98969;
 }
 
 @media screen and (min-width: 736px)
