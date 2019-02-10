@@ -137,18 +137,22 @@ h5 {
   background-color: #92D1DE;
 }
 
-.location1 {
-  background-color: dark gray;
-}
 .content {
   width: 95%;
 }
+
 .reroute {
   background-color: gray;
+  padding: 16px;
+  width: 100%;
+  float: left;
 }
 
 .out-of-service {
   background-color: #D98969;
+  padding: 16px;
+  width: 100%;
+  float: left;
 }
 
 @media screen and (min-width: 736px)
